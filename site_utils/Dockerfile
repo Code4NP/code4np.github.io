@@ -5,7 +5,7 @@ ENV MAMBA_ROOT_PREFIX=/usr/bin/micro
 
 RUN apt-get update && apt-get install -y wget curl bzip2
 
-RUN wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.5.57/quarto-1.5.57-linux-amd64.deb && \
+RUN wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.9.38/quarto-1.9.38-linux-amd64.deb && \
     dpkg -i quarto-*.deb && \
     rm quarto-*.deb
 

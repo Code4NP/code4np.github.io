@@ -82,7 +82,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pcre2-10.42-hcad00b1_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pixman-0.43.2-h59595ed_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-h36c2ea0_1001.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.4.550-ha770c72_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.9.38-ha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-base-4.3.2-hb8ee39d_2.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-base64enc-0.1_3-r43h57805ef_1006.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-cachem-1.0.8-r43h57805ef_1.conda
@@ -1721,11 +1721,11 @@ packages:
   timestamp: 1606147468727
 - kind: conda
   name: quarto
-  version: 1.4.550
+  version: 1.9.38
   build: ha770c72_1
   build_number: 1
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.4.550-ha770c72_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.9.38-ha770c72_1.conda
   sha256: 2fd62d66eb6a08b95ba8933aaff7a0e3241c7ced93b5114a3b1e8d28ee24b330
   md5: b7b89be76bcdab239f7956e5fc2727ab
   depends:

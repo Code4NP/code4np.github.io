@@ -74,7 +74,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pixman-0.43.2-h59595ed_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pthread-stubs-0.4-h36c2ea0_1001.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/python-3.12.1-hab00c5b_1_cpython.conda
-      - conda: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.4.550-ha770c72_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.9.38-ha770c72_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/r-base-4.1.3-h11e5365_12.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/readline-8.2-h8228510_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/sed-4.8-he412f7d_0.tar.bz2
@@ -198,7 +198,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-64/pcre2-10.40-h1c4e4bc_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/osx-64/pixman-0.43.4-h73e2aa4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/python-3.12.1-h9f0c242_1_cpython.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.4.550-h694c41f_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.9.38-h694c41f_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/r-base-4.1.3-h109b13c_12.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/readline-8.2-h9e318b2_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-64/sigtool-0.1.3-h88f4db0_0.tar.bz2
@@ -296,7 +296,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pcre2-10.40-hb34f9b4_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pixman-0.43.4-hebf3989_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/python-3.12.1-hdf0ec26_1_cpython.conda
-      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/quarto-1.4.550-hce30654_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/osx-arm64/quarto-1.9.38-hce30654_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/r-base-4.1.3-hc95f692_12.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/readline-8.2-h92ec313_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/sigtool-0.1.3-h44b9a77_0.tar.bz2
@@ -365,7 +365,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/pandoc-3.1.11.1-h57928b3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/pthreads-win32-2.9.1-hfa6e2cd_3.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/win-64/python-3.12.1-h2628c8c_1_cpython.conda
-      - conda: https://conda.anaconda.org/conda-forge/win-64/quarto-1.4.550-h57928b3_1.conda
+      - conda: https://conda.anaconda.org/conda-forge/win-64/quarto-1.9.38-h57928b3_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/r-base-4.1.3-hdca333a_12.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/tbb-2021.11.0-h91493d7_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/tk-8.6.13-h5226925_1.conda
@@ -4961,11 +4961,11 @@ packages:
   timestamp: 1703318862740
 - kind: conda
   name: quarto
-  version: 1.4.550
+  version: 1.9.38
   build: h57928b3_1
   build_number: 1
   subdir: win-64
-  url: https://conda.anaconda.org/conda-forge/win-64/quarto-1.4.550-h57928b3_1.conda
+  url: https://conda.anaconda.org/conda-forge/win-64/quarto-1.9.38-h57928b3_1.conda
   sha256: 6415fc839ad74202b20ed7781de3aa076f0bc202f7dd977e6ea782dfb00def71
   md5: d92f625feb8436864b4bfd2bc7f420da
   depends:
@@ -4980,11 +4980,11 @@ packages:
   timestamp: 1708104504691
 - kind: conda
   name: quarto
-  version: 1.4.550
+  version: 1.9.38
   build: h694c41f_1
   build_number: 1
   subdir: osx-64
-  url: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.4.550-h694c41f_1.conda
+  url: https://conda.anaconda.org/conda-forge/osx-64/quarto-1.9.38-h694c41f_1.conda
   sha256: 914a1b22f3b9616309ee6a066c50707cab37de0e9eb23cd0db3488d05c3991c1
   md5: 451204adcf15c8411d12ba240e7e979a
   depends:
@@ -4999,11 +4999,11 @@ packages:
   timestamp: 1708104547618
 - kind: conda
   name: quarto
-  version: 1.4.550
+  version: 1.9.38
   build: ha770c72_1
   build_number: 1
   subdir: linux-64
-  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.4.550-ha770c72_1.conda
+  url: https://conda.anaconda.org/conda-forge/linux-64/quarto-1.9.38-ha770c72_1.conda
   sha256: 2fd62d66eb6a08b95ba8933aaff7a0e3241c7ced93b5114a3b1e8d28ee24b330
   md5: b7b89be76bcdab239f7956e5fc2727ab
   depends:
@@ -5018,11 +5018,11 @@ packages:
   timestamp: 1708104283642
 - kind: conda
   name: quarto
-  version: 1.4.550
+  version: 1.9.38
   build: hce30654_1
   build_number: 1
   subdir: osx-arm64
-  url: https://conda.anaconda.org/conda-forge/osx-arm64/quarto-1.4.550-hce30654_1.conda
+  url: https://conda.anaconda.org/conda-forge/osx-arm64/quarto-1.9.38-hce30654_1.conda
   sha256: 593932b9e2150f55b0a52986a44415cc9662a1ed2fec14804c0b8406a9dc3560
   md5: c4f8e6eebc75e160a9cbf1eb95cd7a1e
   depends:

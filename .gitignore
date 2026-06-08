@@ -7,3 +7,5 @@
 .github/CONTRIBUTING.html
 **/index_cache/
 **/index_files/
+
+**/*.quarto_ipynb
